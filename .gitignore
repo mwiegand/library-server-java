@@ -6,3 +6,4 @@ vcap-env.json
 /.apt_generated/
 .idea
 *.iml
+launchConfigurations/
