@@ -1,0 +1,10 @@
+applications:
+- path: target/library-server-java.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mw-library-server
+  host: mw-library-server
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-library
